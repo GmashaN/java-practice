@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:6432/pet_app2
+    username: postgres
+    password: 123
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
